@@ -17,8 +17,8 @@ export default {
         body: ["Ubuntu"]
       },
       backgroundImage: { 
-        'desktop': "url('./src/assets/images/bg-sidebar-desktop.svg')", 
-        'mobile': "url('./src/assets/images/bg-sidebar-mobile.svg')", 
+        'desktop': "url('./public/images/bg-sidebar-desktop.svg')", 
+        'mobile': "url('./public/images/bg-sidebar-mobile.svg')", 
       },
     },
   },

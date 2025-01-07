@@ -28,7 +28,7 @@ export default function Step3({ addAddon, total, isYearly, toggleBilling }) {
           return (
             <div key={index} className={`input p-3 ${spanClass}`}>
               <input type="checkbox" className={`inline checked:bg-palatinateBlue`} onClick={() => addAddon(addon)}/>
-              <span className='h1 ml-4'>{addon.title}</span>
+              <span className='h2 ml-4'>{addon.title}</span>
                 <span className='block text-sm ml-3 md:ml-0 mr-24'>{addon.para}</span>
               <span className="float-right text-polynesianBlue font-bold">{`$${price}/${isYearly ? 'yr' : 'mo'}`}</span>
             </div>

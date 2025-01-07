@@ -35,7 +35,7 @@ export default function Step2({ total, addPlan, isYearly, toggleBilling }) {
                 <img src={plan.img} alt="" />
               </div>
               <div>
-                <h3 className='h1 text-lg'>{plan.title}</h3>
+                <h3 className='h2'>{plan.title}</h3>
                 <p className='sub text-lg font-bold'>{`$${price}/${isYearly ? 'yr' : 'mo'}`}</p>
               </div>
             </div>

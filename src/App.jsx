@@ -30,7 +30,7 @@ function App() {
         <div>
           <Sidebar />
         </div>
-        <div className='flex items-start md:items-center justify-center md:justify-start'>
+        <div className='flex mt-2 md:mt-4 justify-center md:justify-start'>
           <Routes>
             <Route path='/' element={<Step1 />} />
             <Route path='/step2' element={<Step2 total={total} addPlan={addPlan} isYearly={isYearly} toggleBilling={toggleBilling} />} />

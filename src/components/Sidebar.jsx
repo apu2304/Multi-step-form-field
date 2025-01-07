@@ -8,7 +8,7 @@ export default function Sidebar() {
     return isActive ? 'nav active' : 'nav'
   }
   return (
-    <div className='bg-mobile z-0 bg-no-repeat w-[375px] h-[172px] md:w-[274px] md:h-[568px] md:bg-desktop' >
+    <div className='bg-mobile bg-palatinateBlue rounded-lg z-0 bg-no-repeat w-[375px] h-[172px] md:w-[274px] md:h-[568px] md:bg-desktop' >
       <nav className='flex flex-row md:flex-col justify-center md:justify-start gap-3'>
         <div className='flex flex-row ml-0 md:ml-6 mt-7 md:mt-5'>
             <div className={getStepClass('/')}>1</div>
